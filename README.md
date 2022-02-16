@@ -37,3 +37,6 @@ In the end, I am diving into popular open-source DL optimization frameworks (Ten
     - [TensorRT, Nvidia](https://github.com/NVIDIA/TensorRT)
     - [DeepSpeed, Microsoft](https://github.com/microsoft/DeepSpeed)
     - [FasterTransformer, Nvidia](https://github.com/NVIDIA/FasterTransformer)  
+
+## How DL accelerators execute DL jobs?
+xxx
