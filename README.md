@@ -1,4 +1,4 @@
-# A Euler's Formula for Deep Learning Code
+# A Euler's Formula for Deep Learning Optimization
 As Euler's Formula in mathematics, I hope to build a simple but effective optimization framework for existing deep learning (DL) code, which contains general and specific optimization techniques for different DL accelerators (GPU/NPU). The goal of this project is threefold: (1) introduce/understand how DL accelerators run/execute DL code; (2) understand how existing AI compilers optimize DL code and why popular DL frameworks are inefficient (specifically, understand why they write CUDA kernel for a single operation in this way and why they need to fuse kernel operations); (3) compare different optimization techniques on GPU/NPU and understand the differences between general and specific optimization techniques. In the end, I am diving into popular open-source DL optimization frameworks (TensorRT, DeepSpeed and FasterTransformer).
 
 - Outline
