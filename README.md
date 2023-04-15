@@ -12,7 +12,7 @@ To improve deep learning engineering skills, I collect popular learning resource
   - [A reading list for machine learning systems](https://jeongseob.github.io/readings_mlsys.html)
 - Book
   - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?)
-  - [Computer Architectures: An Quantitative Approach (6th edition)]() (principles of system design)
+  - [Computer Architectures: An Quantitative Approach (6th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Architecture%20a%20Quantitative%20Approach%206th.pdf) (principles of system design)
 - Tool 
   - [Pytorch](https://pytorch.org/) (a popular DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch/README.md)
   - [HuggingFace](https://huggingface.co/) (a "Github" for machine learning engineers and researchers) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/HuggingFace/README.md)
