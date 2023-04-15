@@ -7,8 +7,10 @@ To improve deep learning engineering skills, I collect popular learning resource
   - [Towards AGI: Scaling, Alignment & Emergent Behaviors in Neural Nets (Winter 2023)](https://sites.google.com/view/towards-agi-course/schedule) (recent efforts of AI)
   - [UCB CS294 AISys: Machine Learning Systems (Spring 2022)](https://ucbrise.github.io/cs294-ai-sys-sp22/) (recent efforts of AISys)
 - Paper
+  - [Edge-AI-Paper-List](https://github.com/xumengwei/Edge-AI-Paper-List)
 - Book
-  - [Dive into Deep Learning](https://d2l.ai/) (what makes DL work?)
+  - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?)
+  - [Computer Architectures: An Quantitative Approach (6th edition)]() (principles of system design)
 - Tool 
   - [Pytorch](https://pytorch.org/) (a popular DL framework for academics and industry)
   - [HuggingFace](https://huggingface.co/) (a "Github" for machine learning engineers and researchers)
