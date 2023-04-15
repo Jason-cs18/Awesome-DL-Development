@@ -7,9 +7,10 @@
 - Summary: In this chapter, we will interact with a new powerful chatbot based on GPT-3 (a large-scale language model created by OpenAI).
 ## Chapter 2: The Zen of Python - Software Engineering Fundamentals
 - Detailed Notes: https://docs.google.com/document/d/1z5ELxpTw_U01jUB6-D6ILqHRPg6SSiLE7VFQryH3LPU/edit# 
-- Summary: In this chapter, we will study basic tools for AI research (VSCode, Conda, Git).
+- Summary: Following notes, we will study basic tools for AI research (VSCode, Conda, Git). Because data processing has been integrated with AI research pipelines, I also recommend learning some tools for data science ([numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/) and [matplotlib](https://matplotlib.org/)).
 ## Chapter 3: Shoulders of Giants - Reading AI Research Papers
-- Detailed Notes: https://docs.google.com/document/d/1bPhwNdCCKkm1_adD0rx1YV6r2JG98qYmTxutT5gdAdQ/edit# 
+- Detailed Notes: https://docs.google.com/document/d/1bPhwNdCCKkm1_adD0rx1YV6r2JG98qYmTxutT5gdAdQ/edit#
+- Summary: This chapter will guide us to read papers from wide to deep. In specific, we first need to summarize the tasks' description, recent advances, popular benchmarks and critical challenges. Then, we should find really interesting problems in collected papers (such as why A can perform better than B). Finally, we try to answer these problems by reading related works and follow-up works. It is noted that we often have to read 10-20 classic papers to refresh our knowledge before totally understanding recent efforts. 
 ## Chapter 4: In-Tune with Jazz Hands - Fine-tuning a Language Model using Hugging Face
 ## Chapter 5: Lightning McTorch - Fine-tuning a Vision Transformer using Lightning
 ## Chapter 6: Moonwalking with PyTorch - Solidifying PyTorch Fundamentals 
