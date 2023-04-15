@@ -8,6 +8,8 @@ To improve deep learning engineering skills, I collect popular learning resource
   - [UCB CS294 AISys: Machine Learning Systems (Spring 2022)](https://ucbrise.github.io/cs294-ai-sys-sp22/) (recent efforts of AISys)
 - Paper
   - [Edge-AI-Paper-List](https://github.com/xumengwei/Edge-AI-Paper-List)
+  - [Machine Learning at Berkeley Reading List](https://ml.berkeley.edu/reading-list/)
+  - [A reading list for machine learning systems](https://jeongseob.github.io/readings_mlsys.html)
 - Book
   - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?)
   - [Computer Architectures: An Quantitative Approach (6th edition)]() (principles of system design)
