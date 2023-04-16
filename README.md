@@ -21,7 +21,22 @@ To improve deep learning engineering skills, I collect popular learning resource
   - [Reliable AI](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/reliable_ai.md)
     - Survey
     - Continuous learning
+      - [(NSDI'22) Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://www.microsoft.com/en-us/research/publication/ekya-continuous-learning-of-video-analytics-models-on-edge-compute-servers/)
+      - [(IEEE IOT 2022) Cost-Efficient Continuous Edge Learning for Artificial Intelligence of Things](https://ieeexplore.ieee.org/document/9511621)
+      - [(SenSys'22 Workshop) Towards Data-Efficient Continuous Learning for Edge Video Analytics via Smart Caching](https://dl.acm.org/doi/10.1145/3560905.3568430)
+      - [(NSDI'23) RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics](https://www.usenix.org/conference/nsdi23/presentation/khani#:~:text=RECL%20is%20a%20new%20video-analytics%20framework%20that%20carefully,the%20expert%20model%20given%20any%20video%20frame%20samples.)
+      - [(VLDB'20) ODIN: Automated drift detection and recovery in video analytics](https://dl.acm.org/doi/10.14778/3407790.3407837)
+      - [(SIGMOD'22) Camel: Managing Data for Efficient Stream Learning](https://dl.acm.org/doi/10.1145/3514221.3517836)
+      - [(SIGMOD'22) Nautilus: An Optimized System for Deep Transfer Learning over Evolving Training Datasets](https://dl.acm.org/doi/10.1145/3514221.3517846)
+      - [(SIGMOD'22) FILA: Online Auditing of Machine Learning Model Accuracy under Finite Labelling Budget](https://dl.acm.org/doi/10.1145/3514221.3517904)
+      - [(ICCV'21) Real-Time Video Inference on Edge Devices via Adaptive Model Streaming](https://github.com/modelstreaming/ams)
     - Ensemble learning
+      - [(AAAI 2023) Towards Inference Efficient Deep Ensemble Learning](https://arxiv.org/pdf/2301.12378.pdf)
+      - [(NeurIPS'22) Deep Ensembles Work, But Are They Necessary?](https://arxiv.org/pdf/2202.06985.pdf)
+      - [(ICLR'22) Deep Ensembling with No Overhead of either Training or Testing: The All Round Blessings of Dynamic Sparsity](https://iclr.cc/virtual/2022/poster/6299)
+      - [(arXiv 2022) SANE: Specialization-Aware Neural Network Ensemble](https://openreview.net/forum?id=pLNLdHrZmcX)
+      - [(NSDI'22) Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/conference/nsdi22/presentation/eisenman)
+      - [(NSDI'22) Cocktail: A Multidimensional Optimization for Model Serving in Cloud](https://www.usenix.org/conference/nsdi22/presentation/gunasekaran)
     - Collaborative learning
       - [(AAAI'23 Oral) Multi-View Domain Adaptive Object Detection in Surveillance Cameras](https://jason-cs18.github.io/assets/paper/MVDAOD_AAAI23_Full.pdf)
       - [(SEC'20) Spatula: Efficient cross-camera video analytics on large camera networks](https://www.microsoft.com/en-us/research/uploads/prod/2020/08/sec20spatula.pdf)
@@ -33,18 +48,32 @@ To improve deep learning engineering skills, I collect popular learning resource
     - Model scaling
       - [(CVPR'20) EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
       - [(CVPR'23) YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/pdf/2207.02696.pdf)
+      - [(ICLR'20) Once for All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791)
+      - [(ICLR'22) Auto-scaling Vision Transformers without Training](https://arxiv.org/pdf/2202.11921.pdf)
+      - [(MobiCom'23) AdaptiveNet: Post-deployment Neural ArchitectureAdaptation for Diverse Edge Environments](https://arxiv.org/abs/2303.07129)
+      - [(CVPR'23) Stitchable Neural Networks](https://arxiv.org/abs/2302.06586)
+      - [(MobiCom'21) LegoDNN: Block-Grained Scaling of DeepNeural Networks for Mobile Vision](https://github.com/LINC-BIT/legodnn)
+      - Mixture-of-Expert (MoE)
+        - [awesome-mixture-of-experts](https://github.com/XueFuzhao/awesome-mixture-of-experts#awesome-mixture-of-experts) ![Github stars](https://img.shields.io/github/stars/XueFuzhao/awesome-mixture-of-experts#awesome-mixture-of-experts)
     - DL compilers
+      - [Awesome Tensor Compilers](https://github.com/merrymercy/awesome-tensor-compilers) ![Github stars](https://img.shields.io/github/stars/merrymercy/awesome-tensor-compilers)
+      - [(MobiSys'23) Understanding and Optimizing Deep Learning Cold-Start Latency on Edge Devices](https://arxiv.org/abs/2206.07446)
+      - [(MobiCom'22) Romou: Rapidly Generate High-Performance Tensor Kernels for Mobile GPUs](https://www.microsoft.com/en-us/research/publication/romou-rapidly-generate-high-performance-tensor-kernels-for-mobile-gpus/)
     - Serving
+      - [(NSDI'23) GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge](https://web.cs.ucla.edu/~harryxu/papers/gemel-nsdi23.pdf)
+      - [(RTSS'22) Jellyfish: Timely Inference Serving for Dynamic Edge Networks](https://linwang.info/papers/rtss22-jellyfish.pdf)
+      - [(SenSys'22) Turbo: Opportunistic Enhancement for Edge Video Analytics](https://jason-cs18.github.io/assets/paper/sensys22turbo.pdf)
+      - [(SenSys'20) Distream: Scaling Live Video Analytics with Workload-Adaptive Distributed Edge Intelligence](https://mi-zhang.github.io/papers/2020_SenSys_Distream.pdf)
 - Book
   - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/tree/main/Book/D2L)
   - [Computer Architectures: An Quantitative Approach (6th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Architecture%20a%20Quantitative%20Approach%206th.pdf) (principles of system design)
 - Tool 
   - DL development
-    - [Pytorch](https://pytorch.org/) (a popular DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch/README.md)
-    - [HuggingFace](https://huggingface.co/) (a "Github" for machine learning engineers and researchers) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/HuggingFace/README.md)
-    - [Pytorch Lightning](https://lightning.ai/docs/pytorch/stable/) (a scalable DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch-Lighning/README.md)
+    - [Pytorch](https://pytorch.org/) ![Github stars](https://img.shields.io/github/stars/pytorch/pytorch) (a popular DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch/README.md)
+    - [HuggingFace](https://huggingface.co/) ![Github stars](https://img.shields.io/github/stars/huggingface/transformers) (a "Github" for machine learning engineers and researchers) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/HuggingFace/README.md)
+    - [Pytorch Lightning](https://lightning.ai/docs/pytorch/stable/) ![Github stars](https://img.shields.io/github/stars/Lightning-AI/lightning) (a scalable DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch-Lighning/README.md)
   - DL deployment
-    - [NVIDIA Triton](https://developer.nvidia.com/nvidia-triton-inference-server) (an open-source inference engine for CPU/GPU)
-    - [Alibaba MNN](https://github.com/alibaba/MNN) (an open-source inference engine for mobile devices)
+    - [NVIDIA Triton](https://developer.nvidia.com/nvidia-triton-inference-server) ![Github stars](https://img.shields.io/github/stars/triton-inference-server/server) (an open-source inference engine for CPU/GPU)
+    - [Alibaba MNN](https://github.com/alibaba/MNN) ![Github stars](https://img.shields.io/github/stars/alibaba/MNN) (an open-source inference engine for mobile devices)
     - [NVIDIA TAO](https://developer.nvidia.com/tao-toolkit) (a transfer learning toolkit)
-    - [OpenAI Triton](https://openai.com/research/triton) (an open-source Python-like programming language to write highly efficient GPU code without CUDA programming experience)
+    - [OpenAI Triton](https://openai.com/research/triton) ![Github stars](https://img.shields.io/github/stars/openai/triton)  (an open-source Python-like programming language to write highly efficient GPU code without CUDA programming experience)
