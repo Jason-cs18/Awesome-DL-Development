@@ -8,10 +8,10 @@
   - [Efficient AI](#efficient-ai)
 ## Submission notices
 - Summary: In this doc, I will organize multiple useful tips for research proposals, papers, and presentations.
-- Notes: 
+- Notes: https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/submission_notices.md
 ## DL and DLSys basics
-- Notes:
+- Notes:https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/dl_sys.md
 ## Reliable AI
-- Notes:
+- Notes: https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/reliable_ai.md
 ## Efficient AI
-- Notes: 
+- Notes: https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/efficient_ai.md

@@ -2,14 +2,14 @@
 ## Presentation
 1. Keep design clean: "clean" denotes that the information is organized, sized and aligned in a visually pleasing and easy-to-understand way. Usually, a slide should contain 20% text + 40% graphics + 40% white space.
 2. Color and font selection
-- Use an easy-to-read font (Arial and Helvetica), particularly a sans serif.  
-- If only conveying one idea or convering only one project, monochromatic is a great choice.
-- If you want state comparisons, complimentary colors work best.
-- If you are creating something very dynamic, large, and with several different roles, ideas or projects, then triadic colors are good choices. 
+   - Use an easy-to-read font (Arial and Helvetica), particularly a sans serif.  
+   - If only conveying one idea or convering only one project, monochromatic is a great choice.
+   - If you want state comparisons, complimentary colors work best.
+   - If you are creating something very dynamic, large, and with several different roles, ideas or projects, then triadic colors are good choices. 
 3. References
-- [Color Tips (Adobe)](https://color.adobe.com/)
-- [Research Poster Design (The University of Utah)](https://campusguides.lib.utah.edu/c.php?g=685275&p=4842448)
-- [Icon Store](https://thenounproject.com/)
+   - [Color Tips (Adobe)](https://color.adobe.com/)
+   - [Research Poster Design (The University of Utah)](https://campusguides.lib.utah.edu/c.php?g=685275&p=4842448)
+   - [Icon Store](https://thenounproject.com/)
 ## AAAI Submission
 1. Main text should be 10pt and text in figures should be larger than 7pt.
    - In specific, we need to adjust text to 45pt or 60pt in visio or other illustration softwares. 

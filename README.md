@@ -7,23 +7,23 @@ To improve deep learning engineering skills, I collect popular learning resource
   - [Towards AGI: Scaling, Alignment & Emergent Behaviors in Neural Nets (Winter 2023)](https://sites.google.com/view/towards-agi-course/schedule) (recent efforts of AI)
   - [UCB CS294 AISys: Machine Learning Systems (Spring 2022)](https://ucbrise.github.io/cs294-ai-sys-sp22/) (recent efforts of AISys)
 - Paper (topics related to efficient and reliable AI)
-  - [Submission notices]()
+  - [Submission notices](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/submission_notices.md)
     - Presentation
     - AAAI Submission Tips
     - Research Proposal Template
-  - [DL & DLSys basics]()
+  - [DL & DLSys basics](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/dl_sys.md)
     - [Edge-AI-Paper-List](https://github.com/xumengwei/Edge-AI-Paper-List)
     - [Machine Learning at Berkeley Reading List](https://ml.berkeley.edu/reading-list/)
     - [A reading list for machine learning systems](https://jeongseob.github.io/readings_mlsys.html)
     - [Deep Learning for Generic Object Detection: A Survey (2018)](https://arxiv.org/pdf/1809.02165.pdf)
     - [Transformer Models: An Introduction and Catelog (2023)](https://arxiv.org/pdf/2302.07730.pdf)
-  - [Reliable AI]()
+  - [Reliable AI](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/reliable_ai.md)
     - Survey
     - Continuous learning
     - Ensemble learning
     - Collaborative learning
       - 
-  - [Efficient AI]()
+  - [Efficient AI](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/efficient_ai.md)
     - Survey
       - [Efficient Transformers: A Survey (2018)](https://dl.acm.org/doi/pdf/10.1145/3530811)
       - [Efficiency 360: Efficient Vision Transformers (2023)](https://arxiv.org/pdf/2302.08374.pdf)
