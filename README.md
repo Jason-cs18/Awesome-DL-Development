@@ -17,17 +17,22 @@ To improve deep learning engineering skills, I collect popular learning resource
     - [A reading list for machine learning systems](https://jeongseob.github.io/readings_mlsys.html)
     - [Deep Learning for Generic Object Detection: A Survey (2018)](https://arxiv.org/pdf/1809.02165.pdf)
     - [Transformer Models: An Introduction and Catelog (2023)](https://arxiv.org/pdf/2302.07730.pdf)
+    - [Full Stack Optimization of Transformer Inference: a Survey (2023)](https://arxiv.org/abs/2302.14017)
   - [Reliable AI](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/reliable_ai.md)
     - Survey
     - Continuous learning
     - Ensemble learning
     - Collaborative learning
-      - 
+      - [(AAAI'23 Oral) Multi-View Domain Adaptive Object Detection in Surveillance Cameras](https://jason-cs18.github.io/assets/paper/MVDAOD_AAAI23_Full.pdf)
+      - [(SEC'20) Spatula: Efficient cross-camera video analytics on large camera networks](https://www.microsoft.com/en-us/research/uploads/prod/2020/08/sec20spatula.pdf)
+      - [(SEC'19) Collaborative Learning between Cloud and End Devices: An Empirical Study on Location Prediction](https://jason-cs18.github.io/assets/paper/sec19colla.pdf) 
   - [Efficient AI](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/efficient_ai.md)
     - Survey
       - [Efficient Transformers: A Survey (2018)](https://dl.acm.org/doi/pdf/10.1145/3530811)
       - [Efficiency 360: Efficient Vision Transformers (2023)](https://arxiv.org/pdf/2302.08374.pdf)
     - Model scaling
+      - [(CVPR'20) EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
+      - [(CVPR'23) YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/pdf/2207.02696.pdf)
     - DL compilers
     - Serving
 - Book
