@@ -39,7 +39,7 @@ To improve deep learning engineering skills, I collect popular learning resource
       - [(NSDI'22) Cocktail: A Multidimensional Optimization for Model Serving in Cloud](https://www.usenix.org/conference/nsdi22/presentation/gunasekaran)
     - Collaborative learning
       - [(AAAI'23 Oral) Multi-View Domain Adaptive Object Detection in Surveillance Cameras](https://jason-cs18.github.io/assets/paper/MVDAOD_AAAI23_Full.pdf)
-      - [(SEC'20) Spatula: Efficient cross-camera video analytics on large camera networks](https://www.microsoft.com/en-us/research/uploads/prod/2020/08/sec20spatula.pdf)
+      - [(SEC'20 Best Paper Award) Spatula: Efficient cross-camera video analytics on large camera networks](https://www.microsoft.com/en-us/research/uploads/prod/2020/08/sec20spatula.pdf)
       - [(SEC'19) Collaborative Learning between Cloud and End Devices: An Empirical Study on Location Prediction](https://jason-cs18.github.io/assets/paper/sec19colla.pdf) 
   - [Efficient AI](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/efficient_ai.md)
     - Survey
