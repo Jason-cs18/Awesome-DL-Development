@@ -6,6 +6,19 @@ To improve deep learning engineering skills, I collect popular learning resource
   - [CMU 10-414/714: Deep Learning Systems (Fall 2022)](https://dlsyscourse.org/lectures/) (how do DL frameworks work?)
   - [Towards AGI: Scaling, Alignment & Emergent Behaviors in Neural Nets (Winter 2023)](https://sites.google.com/view/towards-agi-course/schedule) (recent efforts of AI)
   - [UCB CS294 AISys: Machine Learning Systems (Spring 2022)](https://ucbrise.github.io/cs294-ai-sys-sp22/) (recent efforts of AISys)
+- Book
+  - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/tree/main/Book/D2L)
+  - [Computer Architectures: An Quantitative Approach (6th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Architecture%20a%20Quantitative%20Approach%206th.pdf) (principles of system design)
+- Tool 
+  - DL development
+    - [Pytorch](https://pytorch.org/) ![Github stars](https://img.shields.io/github/stars/pytorch/pytorch) (a popular DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch/README.md)
+    - [HuggingFace](https://huggingface.co/) ![Github stars](https://img.shields.io/github/stars/huggingface/transformers) (a "Github" for machine learning engineers and researchers) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/HuggingFace/README.md)
+    - [Pytorch Lightning](https://lightning.ai/docs/pytorch/stable/) ![Github stars](https://img.shields.io/github/stars/Lightning-AI/lightning) (a scalable DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch-Lighning/README.md)
+  - DL deployment
+    - [NVIDIA Triton](https://developer.nvidia.com/nvidia-triton-inference-server) ![Github stars](https://img.shields.io/github/stars/triton-inference-server/server) (an open-source inference engine for CPU/GPU)
+    - [Alibaba MNN](https://github.com/alibaba/MNN) ![Github stars](https://img.shields.io/github/stars/alibaba/MNN) (an open-source inference engine for mobile devices)
+    - [NVIDIA TAO](https://developer.nvidia.com/tao-toolkit) (a transfer learning toolkit)
+    - [OpenAI Triton](https://openai.com/research/triton) ![Github stars](https://img.shields.io/github/stars/openai/triton)  (an open-source Python-like programming language to write highly efficient GPU code without CUDA programming experience) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/OpenAI_Triton/readme.md)
 - Paper (topics related to efficient and reliable AI)
   - [Submission notices](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/submission_notices.md)
     - Presentation
@@ -64,16 +77,3 @@ To improve deep learning engineering skills, I collect popular learning resource
       - [(RTSS'22) Jellyfish: Timely Inference Serving for Dynamic Edge Networks](https://linwang.info/papers/rtss22-jellyfish.pdf)
       - [(SenSys'22) Turbo: Opportunistic Enhancement for Edge Video Analytics](https://jason-cs18.github.io/assets/paper/sensys22turbo.pdf)
       - [(SenSys'20) Distream: Scaling Live Video Analytics with Workload-Adaptive Distributed Edge Intelligence](https://mi-zhang.github.io/papers/2020_SenSys_Distream.pdf)
-- Book
-  - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/tree/main/Book/D2L)
-  - [Computer Architectures: An Quantitative Approach (6th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Architecture%20a%20Quantitative%20Approach%206th.pdf) (principles of system design)
-- Tool 
-  - DL development
-    - [Pytorch](https://pytorch.org/) ![Github stars](https://img.shields.io/github/stars/pytorch/pytorch) (a popular DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch/README.md)
-    - [HuggingFace](https://huggingface.co/) ![Github stars](https://img.shields.io/github/stars/huggingface/transformers) (a "Github" for machine learning engineers and researchers) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/HuggingFace/README.md)
-    - [Pytorch Lightning](https://lightning.ai/docs/pytorch/stable/) ![Github stars](https://img.shields.io/github/stars/Lightning-AI/lightning) (a scalable DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch-Lighning/README.md)
-  - DL deployment
-    - [NVIDIA Triton](https://developer.nvidia.com/nvidia-triton-inference-server) ![Github stars](https://img.shields.io/github/stars/triton-inference-server/server) (an open-source inference engine for CPU/GPU)
-    - [Alibaba MNN](https://github.com/alibaba/MNN) ![Github stars](https://img.shields.io/github/stars/alibaba/MNN) (an open-source inference engine for mobile devices)
-    - [NVIDIA TAO](https://developer.nvidia.com/tao-toolkit) (a transfer learning toolkit)
-    - [OpenAI Triton](https://openai.com/research/triton) ![Github stars](https://img.shields.io/github/stars/openai/triton)  (an open-source Python-like programming language to write highly efficient GPU code without CUDA programming experience) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/OpenAI_Triton/readme.md)
