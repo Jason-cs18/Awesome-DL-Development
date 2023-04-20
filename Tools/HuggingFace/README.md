@@ -12,6 +12,8 @@
   - [Datasets](https://huggingface.co/datasets): A dataset collection for diverse tasks of different domains (multimodal, computer vision, natural language processing, audio and tabular).
   - [Spaces](https://huggingface.co/spaces): Recent trends on ML apps.
   - [Docs](https://huggingface.co/docs): Official documentation (*I highly recommend you go through it in advance*)
+    - NLP Course
+    - Deep RL Course
     - Transformers
     - Diffusers
     - Hub
@@ -43,6 +45,7 @@
 - ML deployment
   - Optimize the trained model for inference
   - Deploy the optimized model and monitor its performance
+  - Build a demo ans share it with others
 ## Use pre-trained models for inference
 1. NLP (text classification, zero-shot classification, text generation, text completion, token classification, question answering, summarization, translation).
     ```python
