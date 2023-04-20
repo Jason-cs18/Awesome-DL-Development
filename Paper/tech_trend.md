@@ -8,9 +8,23 @@
 6. [(July, 2021) Introducing Triton: Open-source GPU programming for neural networks](https://openai.com/research/triton)
 7. [(Jan, 2021) DALL·E: Creating images from text](https://openai.com/research/dall-e)
 8. [(Jan, 2021) CLIP: Connecting text and images](https://openai.com/research/clip)
-9. [(May, 2020) Language models are few-shot learners](https://openai.com/research/language-models-are-few-shot-learners)
-10. [(May, 2020) AI and efficiency](https://openai.com/research/ai-and-efficiency)
-11. [(Jan, 2020) Scaling laws for neural language models](https://openai.com/research/scaling-laws-for-neural-language-models)
+9. [(Jan, 2021) Scaling Laws for Transfer](https://arxiv.org/pdf/2102.01293.pdf)
+    - Authors study scaling laws for transfer learning, including task-transfer and domain-transfer.
+      1. _Did they test it on domain-transfer in a same task?_
+    - They proposed "effective data transfer" to quantify the ability of pre-training.
+      1. _how to measure "effective data transfer"?_    
+    - They concluded that transfer scales predictably in terms of #param, #data and #compute.
+      1.  _task-transfer or domain-transfer?_
+      2.  _Can we use it to estimate the upperbound of transfer learning with a resource constraint?_
+10. [(May, 2020) Language models are few-shot learners](https://openai.com/research/language-models-are-few-shot-learners)
+11. [(May, 2020) AI and efficiency](https://openai.com/research/ai-and-efficiency)
+12. [(Jan, 2020) Scaling laws for neural language models](https://openai.com/research/scaling-laws-for-neural-language-models)
+    - Authors study scaling laws for language models from a large-scale experiments.
+    - They find that the cross-entropy loss scale as a power-law with model size, dataset size, and the amount of compute used for training.
+      1. _scaling laws can be formulated as a mathematics formulation?_ 
+    - These findings let us determine the optimal allocation of a fixed compute budget.
+      1. _How to achieve this goal?_
+      2. _If training resource is a constant, can we predict the training loss? If yes, can we use it to infer the best training configs?_ It seems like a upper-bound for a model.
 ## Microsoft Research
 1. [(EuroSys'22) Varuna: Scalable, Low-cost Training of Massive Deep Learning Models](https://www.microsoft.com/en-us/research/publication/varuna-scalable-low-cost-training-of-massive-deep-learning-models/)
 2. [(NSDI'23) RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics](https://www.microsoft.com/en-us/research/publication/recl-responsive-resource-efficient-continuous-learning-for-video-analytics/)
@@ -49,6 +63,7 @@
 35. [(OSDI'22) Roller: Fast and Efficient Tensor Compilation for Deep Learning](https://www.microsoft.com/en-us/research/publication/roller-fast-and-efficient-tensor-compilation-for-deep-learning/)
 36. [(Jul, 2022) Tutel: Adaptive Mixture-of-Experts at Scale](https://www.microsoft.com/en-us/research/publication/tutel-adaptive-mixture-of-experts-at-scale/)
 37. [(MobiSys'22) CoDL: Efficient CPU-GPU Co-execution for Deep Learning Inference on Mobile Devices](https://www.microsoft.com/en-us/research/publication/codl-efficient-cpu-gpu-co-execution-for-deep-learning-inference-on-mobile-devices/)
+38. [(ESEC/FCE'20) Estimating GPU memory consumption of deep learning models](https://dl.acm.org/doi/10.1145/3368089.3417050)
 ## Google Research
 1. [(CVPR'23) A New Path: Scaling Vision-and-Language Navigation with Synthetic Instructions and Imitation Learning](https://ai.facebook.com/research/publications/detecting-twenty-thousand-classes-using-image-level-supervision/)
 2. [(ICLR'23) A New Path: Scaling Vision-and-Language Navigation with Synthetic Instructions and Imitation Learning](https://research.google/pubs/pub52240/)
@@ -85,6 +100,10 @@
 33. [(CV4ARVR'22) Efficient Heterogeneous Video Segmentation at the Edge](https://research.google/pubs/pub51390/)
 34. [(TMLR'22) CoCa: Contrastive Captioners are Image-Text Foundation Models](https://research.google/pubs/pub51452/)
 35. [(ACM TACO, 2022) Autotuning Convolutions is Easier Than You Think](https://research.google/pubs/pub51856/)
+36. [(2022) Architecture Matters in Continual Learning](https://arxiv.org/pdf/2202.00275.pdf)
+37. [(2022) Scaling Laws vs Model Architectures: How does Inductive Bias Influence Scaling?](https://arxiv.org/pdf/2207.10551.pdf)
+38. [(ICLR'22) Effect of scale on catastrophic forgetting in neural networks](https://openreview.net/forum?id=GhVS8_yPeEa)
+39. [(2021) Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better](https://arxiv.org/pdf/2106.08962.pdf)
 ## Meta AI
 1. [(CVPR'23) Segment Anything](https://ai.facebook.com/research/publications/segment-anything/)
 2. [(TOSEM'23) ArchRepair: Block-Level Architecture-Oriented Repairing for Deep Neural Networks](https://ai.facebook.com/research/publications/archrepair-block-level-architecture-oriented-repairing-for-deep-neural-networks/)
