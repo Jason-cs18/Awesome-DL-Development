@@ -9,22 +9,19 @@
 7. [(Jan, 2021) DALL·E: Creating images from text](https://openai.com/research/dall-e)
 8. [(Jan, 2021) CLIP: Connecting text and images](https://openai.com/research/clip)
 9. [(Jan, 2021) Scaling Laws for Transfer](https://arxiv.org/pdf/2102.01293.pdf)
-    - Authors study scaling laws for transfer learning, including task-transfer and domain-transfer.
-      1. _Did they test it on domain-transfer in a same task?_
-    - They proposed "effective data transfer" to quantify the ability of pre-training.
-      1. _how to measure "effective data transfer"?_    
-    - They concluded that transfer scales predictably in terms of #param, #data and #compute.
-      1.  _task-transfer or domain-transfer?_
-      2.  _Can we use it to estimate the upperbound of transfer learning with a resource constraint?_
 10. [(May, 2020) Language models are few-shot learners](https://openai.com/research/language-models-are-few-shot-learners)
 11. [(May, 2020) AI and efficiency](https://openai.com/research/ai-and-efficiency)
 12. [(Jan, 2020) Scaling laws for neural language models](https://openai.com/research/scaling-laws-for-neural-language-models)
     - Authors study scaling laws for language models from a large-scale experiments.
+      1. _Do this rule work on object detection models?_ Yes, but the solution is based emprical results and scaling on other tasks requires a lot of mannual efforts (e.g., try all experiments on microsoft COCO). 
     - They find that the cross-entropy loss scale as a power-law with model size, dataset size, and the amount of compute used for training.
-      1. _scaling laws can be formulated as a mathematics formulation?_ 
+      1. _scaling laws can be formulated as a mathematics formulation?_ Yes, scaling laws shows the relationship between testing loss ($L$) and the number of parameters (N) / the size of training data (D) / the computation budget (C). In specific,
+         - $$L(N)=(N_{C}/N)^{\alpha_{N}}$$
+         - $$L(D)=(D_{C}/D)^{\alpha_{D}}$$
+         - $$L(C)=(C_{C}/C)^{\alpha_{C}}$$
     - These findings let us determine the optimal allocation of a fixed compute budget.
-      1. _How to achieve this goal?_
-      2. _If training resource is a constant, can we predict the training loss? If yes, can we use it to infer the best training configs?_ It seems like a upper-bound for a model.
+      1. _How to achieve this goal?_ Given a fixed $C$, we can infer the lower bound of testing loss via $L(C)=(C_{C}/C)^{\alpha_{C}}$. Then, xxx. It shows that training a large-scale model with a few iterations is a better choice than training a small model with more iterations.
+      2. _If training resource is a constant, can we predict the training loss? If yes, can we use it to infer the best training configs?_ Yes, but it requires a lot efforts in offline stages. The best training config is hard to find via scaling laws only and the searching cost is also ignored in all experiments.
 ## Microsoft Research
 1. [(EuroSys'22) Varuna: Scalable, Low-cost Training of Massive Deep Learning Models](https://www.microsoft.com/en-us/research/publication/varuna-scalable-low-cost-training-of-massive-deep-learning-models/)
 2. [(NSDI'23) RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics](https://www.microsoft.com/en-us/research/publication/recl-responsive-resource-efficient-continuous-learning-for-video-analytics/)
@@ -52,7 +49,7 @@
 24. [(SIGMOD'22) End-to-end Optimization of Machine Learning Prediction Queries](https://www.microsoft.com/en-us/research/publication/end-to-end-optimization-of-machine-learning-prediction-queries/)
 25. [(NSDI'23) GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge](https://www.microsoft.com/en-us/research/publication/gemel-model-merging-for-memory-efficient-real-time-video-analytics-at-the-edge-2/)
 26. [(NSDI'23) SelfTune: Tuning Cluster Managers](https://www.microsoft.com/en-us/research/publication/selftune-tuning-cluster-managers/)
-27. [(NSDI'22) Tambur: Efficient loss recovery for videoconferencing via streaming codes](https://www.microsoft.com/en-us/research/publication/tambur/)
+27. [(NSDI'23) Tambur: Efficient loss recovery for videoconferencing via streaming codes](https://www.microsoft.com/en-us/research/publication/tambur/)
 28. [(ASPLOS'23) ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning](https://www.microsoft.com/en-us/research/publication/elasticflow-an-elastic-serverless-training-platform-for-distributed-deep-learning/)
 29. [(Dec, 2022) A Study on the Intersection of GPU Utilization and CNN Inference](https://www.microsoft.com/en-us/research/publication/a-study-on-the-intersection-of-gpu-utilization-and-cnn-inference/)
 30. [(SenSys'22) Turbo: Opportunistic Enhancement for Edge Video Analytics](https://www.microsoft.com/en-us/research/publication/turbo-opportunistic-enhancement-for-edge-video-analytics/)
@@ -64,6 +61,10 @@
 36. [(Jul, 2022) Tutel: Adaptive Mixture-of-Experts at Scale](https://www.microsoft.com/en-us/research/publication/tutel-adaptive-mixture-of-experts-at-scale/)
 37. [(MobiSys'22) CoDL: Efficient CPU-GPU Co-execution for Deep Learning Inference on Mobile Devices](https://www.microsoft.com/en-us/research/publication/codl-efficient-cpu-gpu-co-execution-for-deep-learning-inference-on-mobile-devices/)
 38. [(ESEC/FCE'20) Estimating GPU memory consumption of deep learning models](https://dl.acm.org/doi/10.1145/3368089.3417050)
+39. [(NSDI'23) On Modular Learning of Distributed Systems for Predicting End-to-End Latency](https://www.usenix.org/conference/nsdi23/presentation/liang-chieh-jan)
+40. [(NSDI'23) Sketchovsky: Enabling Ensembles of Sketches on Programmable Switches](https://www.usenix.org/conference/nsdi23/presentation/namkung)
+41. [(NSDI'23) Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://www.usenix.org/conference/nsdi23/presentation/thorpe)
+42. [(NSDI'23) ARK: GPU-driven Code Execution for Distributed Deep Learning](https://www.usenix.org/conference/nsdi23/presentation/hwang)
 ## Google Research
 1. [(CVPR'23) A New Path: Scaling Vision-and-Language Navigation with Synthetic Instructions and Imitation Learning](https://ai.facebook.com/research/publications/detecting-twenty-thousand-classes-using-image-level-supervision/)
 2. [(ICLR'23) A New Path: Scaling Vision-and-Language Navigation with Synthetic Instructions and Imitation Learning](https://research.google/pubs/pub52240/)
@@ -102,8 +103,9 @@
 35. [(ACM TACO, 2022) Autotuning Convolutions is Easier Than You Think](https://research.google/pubs/pub51856/)
 36. [(2022) Architecture Matters in Continual Learning](https://arxiv.org/pdf/2202.00275.pdf)
 37. [(2022) Scaling Laws vs Model Architectures: How does Inductive Bias Influence Scaling?](https://arxiv.org/pdf/2207.10551.pdf)
-38. [(ICLR'22) Effect of scale on catastrophic forgetting in neural networks](https://openreview.net/forum?id=GhVS8_yPeEa)
-39. [(2021) Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better](https://arxiv.org/pdf/2106.08962.pdf)
+38. [(2021) Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better](https://arxiv.org/pdf/2106.08962.pdf)
+39. [(NSDI'23) HALP: Heuristic Aided Learned Preference Eviction Policy for YouTube Content Delivery Network](https://www.usenix.org/conference/nsdi23/presentation/song-zhenyu)
+40. [(arXiv'22) Preserving In-Context Learning ability in Large Language Model Fine-tuning](https://arxiv.org/abs/2211.00635)
 ## Meta AI
 1. [(CVPR'23) Segment Anything](https://ai.facebook.com/research/publications/segment-anything/)
 2. [(TOSEM'23) ArchRepair: Block-Level Architecture-Oriented Repairing for Deep Neural Networks](https://ai.facebook.com/research/publications/archrepair-block-level-architecture-oriented-repairing-for-deep-neural-networks/)
@@ -112,3 +114,5 @@
 5. [(NeurIPS'22) Beyond neural scaling laws: beating power law scaling via data pruning](https://ai.facebook.com/research/publications/beyond-neural-scaling-laws-beating-power-law-scaling-via-data-pruning/)
 6. [(ECCV'22) Three things everyone should know about Vision Transformers](https://ai.facebook.com/research/publications/three-things-everyone-should-know-about-vision-transformers/)
 7. [(ECCV'22) Detecting Twenty-thousand Classes using Image-level Supervision](https://ai.facebook.com/research/publications/detecting-twenty-thousand-classes-using-image-level-supervision/)
+8. [(NSDI'23) TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs](https://www.usenix.org/conference/nsdi23/presentation/wang-weiyang)
+9. [(NSDI'23) Better Together: Jointly Optimizing ML Collective Scheduling and Execution Planning using SYNDICATE](https://www.usenix.org/conference/nsdi23/presentation/mahajan)

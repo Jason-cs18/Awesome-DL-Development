@@ -9,6 +9,7 @@ To improve deep learning engineering skills, I collect popular learning resource
 - Book
   - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/tree/main/Book/D2L)
   - [Computer Architectures: An Quantitative Approach (6th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Architecture%20a%20Quantitative%20Approach%206th.pdf) (principles of system design)
+  - [Computer Systems: A Programmer's Perspective (2nd edition)]() (a good book to review main concepts of computer systems)
 - Tool 
   - DL development
     - [Pytorch](https://pytorch.org/) ![Github stars](https://img.shields.io/github/stars/pytorch/pytorch) (a popular DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch/README.md)
@@ -53,6 +54,7 @@ To improve deep learning engineering skills, I collect popular learning resource
         - [(TOSN'22) DeepMTD: Moving Target Defense for Deep Visual Sensing against Adversarial Examples](https://dl.acm.org/doi/abs/10.1145/3469032)
         - [(SECON'22) Focus! Provisioning Attention-aware Detection for Real-time On-device Video Analytics](https://ieeexplore.ieee.org/abstract/document/9918169)
         - [(VLDB'21) Declarative data serving: the future of machine learning inference on the edge](https://dl.acm.org/doi/abs/10.14778/3476249.3476302)
+        - [(SenSys'22) Enhancing Video Analytics Accuracy via Real-time Automated Camera Parameter Tuning](https://dl.acm.org/doi/abs/10.1145/3560905.3568527)
     - Ensemble learning
       - Algorithm
         - [(AAAI 2023) Towards Inference Efficient Deep Ensemble Learning](https://arxiv.org/pdf/2301.12378.pdf)
