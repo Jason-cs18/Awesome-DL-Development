@@ -10,7 +10,7 @@ To improve deep learning engineering skills, I collect popular learning resource
   - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/tree/main/Book/D2L)
   - [Computer Architectures: An Quantitative Approach (6th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Architecture%20a%20Quantitative%20Approach%206th.pdf) (principles of system design)
   - [Computer Systems: A Programmer's Perspective (2nd edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/CSAPP_2016.pdf) (a good book to review the main concepts of computer systems)
-  - [Computer Networking: A Top-Down Approach (7th edition)]() (background of networking systems)
+  - [Computer Networking: A Top-Down Approach (7th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Networking%20A%20Top-Down%20Approach%20(7th%20Edition).pdf) (background of networking systems)
 - Tool 
   - DL development
     - [Pytorch](https://pytorch.org/) ![Github stars](https://img.shields.io/github/stars/pytorch/pytorch) (a popular DL framework for academics and industry) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/Pytorch/README.md)
