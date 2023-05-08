@@ -8,6 +8,7 @@ To improve deep learning engineering skills, I collect popular learning resource
   - [UCB CS294 AISys: Machine Learning Systems (Spring 2022)](https://ucbrise.github.io/cs294-ai-sys-sp22/) (recent efforts of AISys)
 - Book
   - [Dive into Deep Learning (vol. 2)](https://d2l.ai/) (what makes DL work?) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/tree/main/Book/D2L)
+  - [Understanding Deep Learning (UCL 2023)](https://udlbook.github.io/udlbook/) (review concepts of deep learning)
   - [Computer Architectures: An Quantitative Approach (6th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Architecture%20a%20Quantitative%20Approach%206th.pdf) (principles of system design)
   - [Computer Systems: A Programmer's Perspective (2nd edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/CSAPP_2016.pdf) (a good book to review the main concepts of computer systems)
   - [Computer Networking: A Top-Down Approach (7th edition)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Book/pdf/Computer%20Networking%20A%20Top-Down%20Approach%20(7th%20Edition).pdf) (background of networking systems)
@@ -20,6 +21,7 @@ To improve deep learning engineering skills, I collect popular learning resource
     - [NVIDIA Triton](https://developer.nvidia.com/nvidia-triton-inference-server) ![Github stars](https://img.shields.io/github/stars/triton-inference-server/server) (an open-source inference engine for CPU/GPU)
     - [Alibaba MNN](https://github.com/alibaba/MNN) ![Github stars](https://img.shields.io/github/stars/alibaba/MNN) (an open-source inference engine for mobile devices)
     - [NVIDIA TAO](https://developer.nvidia.com/tao-toolkit) (a transfer learning toolkit)
+    - [NVIDIA TensorRT](https://github.com/NVIDIA/TensorRT) (an official acceleration library maintained by NVIDIA for DNN)
     - [OpenAI Triton](https://openai.com/research/triton) ![Github stars](https://img.shields.io/github/stars/openai/triton)  (an open-source Python-like programming language to write highly efficient GPU code without CUDA programming experience) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Tools/OpenAI_Triton/readme.md)
 - Paper (topics related to efficient and reliable AI)
   - [Submission notices](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/submission_notices.md)
@@ -77,9 +79,10 @@ To improve deep learning engineering skills, I collect popular learning resource
       - [(SEC'20 Best Paper Award) Spatula: Efficient cross-camera video analytics on large camera networks](https://www.microsoft.com/en-us/research/uploads/prod/2020/08/sec20spatula.pdf)
       - [(SEC'19) Collaborative Learning between Cloud and End Devices: An Empirical Study on Location Prediction](https://jason-cs18.github.io/assets/paper/sec19colla.pdf) 
   - [Efficient AI](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Paper/efficient_ai.md)
-    - Survey
+    - Survey and background
       - [Efficient Transformers: A Survey (2018)](https://dl.acm.org/doi/pdf/10.1145/3530811)
       - [Efficiency 360: Efficient Vision Transformers (2023)](https://arxiv.org/pdf/2302.08374.pdf)
+      -  Scaling laws of deep neural networks
     - Model scaling
       - [(CVPR'20) EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
       - [(CVPR'23) YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/pdf/2207.02696.pdf)

@@ -22,6 +22,7 @@
     - These findings let us determine the optimal allocation of a fixed compute budget.
       1. _How to achieve this goal?_ Given a fixed $C$, we can infer the lower bound of testing loss via $L(C)=(C_{C}/C)^{\alpha_{C}}$. Then, xxx. It shows that training a large-scale model with a few iterations is a better choice than training a small model with more iterations.
       2. _If training resource is a constant, can we predict the training loss? If yes, can we use it to infer the best training configs?_ Yes, but it requires a lot efforts in offline stages. The best training config is hard to find via scaling laws only and the searching cost is also ignored in all experiments.
+13. [(2023) Compression for AGI](https://www.youtube.com/watch?v=dO4TPJkeaaU)
 ## Microsoft Research
 1. [(EuroSys'22) Varuna: Scalable, Low-cost Training of Massive Deep Learning Models](https://www.microsoft.com/en-us/research/publication/varuna-scalable-low-cost-training-of-massive-deep-learning-models/)
 2. [(NSDI'23) RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics](https://www.microsoft.com/en-us/research/publication/recl-responsive-resource-efficient-continuous-learning-for-video-analytics/)
@@ -116,3 +117,4 @@
 7. [(ECCV'22) Detecting Twenty-thousand Classes using Image-level Supervision](https://ai.facebook.com/research/publications/detecting-twenty-thousand-classes-using-image-level-supervision/)
 8. [(NSDI'23) TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs](https://www.usenix.org/conference/nsdi23/presentation/wang-weiyang)
 9. [(NSDI'23) Better Together: Jointly Optimizing ML Collective Scheduling and Execution Planning using SYNDICATE](https://www.usenix.org/conference/nsdi23/presentation/mahajan)
+10. [(Yann Lecun, 2022) A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf&utm_source=pocket_mylist) ([video](https://www.buffalo.edu/ai-data-science/news-events/events/speakers.host.html/content/shared/www/ai-data-science/DSS/lecun.detail.html))
