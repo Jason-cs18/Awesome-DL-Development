@@ -4,6 +4,7 @@ To improve deep learning engineering skills, I collect popular learning resource
 - Course
   - [Harvard CS197: AI Research Experience (Fall 2022)](https://www.cs197.seas.harvard.edu/) (how to conduct AI research?) [Notes (in progress)](https://github.com/Jason-cs18/Awesome-DL-Development/blob/main/Course/Harvard_CS197/readme.md)
   - [CMU 10-414/714: Deep Learning Systems (Fall 2022)](https://dlsyscourse.org/lectures/) (how do DL frameworks work?)
+  - [Machine Learning Compilation (Fall 2022)](https://mlc.ai/) (how to optimize DL programs?) [TVM](https://tvm.apache.org/)
   - [Towards AGI: Scaling, Alignment & Emergent Behaviors in Neural Nets (Winter 2023)](https://sites.google.com/view/towards-agi-course/schedule) (recent efforts of AI)
   - [UCB CS294 AISys: Machine Learning Systems (Spring 2022)](https://ucbrise.github.io/cs294-ai-sys-sp22/) (recent efforts of AISys)
 - Book
